@@ -36,7 +36,6 @@ body {
   scrollbar-width: none;
 
   padding-bottom: 20px;
-  scroll-behavior: smooth;
 }
 
 /* hides scrollbar */
@@ -93,7 +92,7 @@ body {
   font-size: 20px;
 
   max-width: 100%;
-  overflow-x: scroll;
+  overflow-y: scroll;
 
   /*
    * white space refers to any spaces, tabs, or newline characters that are used to format the CSS code
