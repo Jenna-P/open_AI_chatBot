@@ -3,6 +3,7 @@ import user from './assets/user.svg'
 
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
+const banner = document.querySelector('.banner');
 
 let loadInterval
 
@@ -86,6 +87,9 @@ const handleSubmit = async (e) => {
      // to focus scroll to the bottom 
      chatContainer.scrollTop = chatContainer.scrollHeight;
 
+   if(chatContainer.scrollTop >= 0) {
+    banner.classList.add("disable");
+   }
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
