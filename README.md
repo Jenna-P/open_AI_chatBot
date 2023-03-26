@@ -2,7 +2,7 @@
 This repository contains a chatbot built using OpenAI's GPT-3 API and Node.js for the server side. 
 
 ## Overview 
-This project is a chatbot that uses OpenAI's GPT-3 API to generate responses to user input. The chatbot is built using Node.js for the server side and JavaScript for the client side. The goal of this project is to create an AI-powered chatbot that can respond to user input in a natural and conversational manner. 
+This project is a chatbot that uses OpenAI's GPT-3 API to generate responses to user input. The chatbot is built using Node.js for the server side and vanilla JavaScript(vite.js client template) for the client side. The goal of this project is to create an AI-powered chatbot that can respond to user input in a natural and conversational manner. 
 
 ## Features 
 * Uses OpenAI's GPT-3 API to generate responses 
