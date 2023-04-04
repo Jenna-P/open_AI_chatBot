@@ -8,7 +8,6 @@ dotenv.config({path: '../.env'})
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
-  // apiKey: "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",
 
 });
 
