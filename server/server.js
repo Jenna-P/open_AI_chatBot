@@ -5,6 +5,7 @@ import { Configuration, OpenAIApi } from 'openai'
 
 dotenv.config({path: '../.env'})
 
+
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 
@@ -18,7 +19,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello from AI!'
+    message: 'Hello from Server!'
   })
 })
 
